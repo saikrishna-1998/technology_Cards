@@ -29,7 +29,7 @@ const cardsList = [
   },
   {
     id: 4,
-    title: 'ML Engineer',
+    title: 'ML Engineer sai krishna reddy kanala',
     description:
       'Machine learning engineers feed data into models defined by data scientists.',
     imgUrl: 'https://assets.ccbp.in/frontend/react-js/ml-engineer-img.png',
