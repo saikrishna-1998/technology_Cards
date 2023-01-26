@@ -38,17 +38,18 @@ const cardsList = [
 ]
 
 const App = () => (
-  <div className="cards-app-container">
-    <div className="cards-list-container">
-      <h1 className="heading">Learn 4.0 Technologies</h1>
-      <p className="description">
+  <div className="app-container">
+    <div className="card-container">
+      <h1 class="heading">Learn 4.0 Technologies</h1>
+      <p class="decription">
         Get trained by alumni of IITs and top companies like Amazon, Microsoft,
-        Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved
+        Intel, Nvidia, Qualcomm, etc, Learn directly from professionals involved
         in Product Development.
       </p>
-      <ul className="cards-list">
-        {cardsList.map(eachCard => (
-          <CardItem cardDetails={eachCard} key={eachCard.id} />
+    
+      <ul className="tech-list">
+        {cardsList.map(eachItem => (
+          <CardItem cardDetails={eachItem} key={eachCard.id} />
         ))}
       </ul>
     </div>
